@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>안녕하세요</title>
+</head>
+<body>
+    <!-- table태그 -->
+    <h2>열병합</h2>
+<table border="1">
+    <tr>
+        <th>이름</th>
+        <th colspan="2">전화번호</th>
+    </tr>
+    <tr>
+        <td>홍길동</td>
+        <td>010</td>
+        <td>02</td>
+    </tr>
+
+
+    <!-- 
+        그룹화 순서 (thead,tfoot,tbody)
+        1)thead (첫번째 행)
+        2)tfoot (마지막 행)
+        3)tbody (가운데 행들)
+     -->
+</table>
+        <h2>행병합</h2>
+        <table border="1">
+            <tr>
+                <th>이름</th>
+                <td>홍길동</td>
+    </tr>
+    <tr>
+        <th rowspan="2">전화번호</th>
+        <td>010</td>
+    </tr>
+    <tr>
+        <td>010</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <hr>
+    <br>
+    Required fields are followed by * <br>
+    <br>
+    <h2>Contact Information</h2>
+    <form action="target.html" method="get">
+        Name: *<label for="Name">
+            <input type="text" id="Name" required placeholder="smith" name="Name">
+        </label> <br>
+        <br>
+        <fieldset>
+            <legend>Gender: *</legend><br>
+            <input type="radio" name="Gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" value="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" value="Other">
+            <label for="Other">Other</label><br>
+            <br>
+        </fieldset><br>
+        <br>
+        Address: <label for="Address"><br>
+            <textarea name="adress" name="Adress" cols="180" rows="10
+            " placeholder="Enter the address"></textarea>
+        </label><br>
+        <br>
+        Email: *<label for="Email">
+            <input type="email" id="email" name="email" required placeholder="smith@gmail.com">
+        </label><br>
+        <br>
+        Pincord: *<label for="Pincord">
+            <input type="text" name="Pincord" required placeholder="123456">
+        </label><br>
+        <br>
+        <hr>
+        <h2>Payment Information</h2>
+        Card Type: *<label for="Card Type"></label>
+        <select name="Card Type" id="Card Type">
+            <option value="--Select a Card Type--">--Select a Card Type--</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Visa">Visa</option>
+        </select><br>
+        <br>
+        Card number: *<label for="Card number">
+            <input type="text" name="cardnumber" required placeholder="1111-2222-3333-4444">
+        </label><br>
+        <br>
+        Expiration Date: *<label for="date">
+            <input type="date" name="date">
+        </label><br>
+        <br>
+        CVV: *<label for="CVV">
+            <input type="password" name="cvv" id="CVV" required>
+        </label><br>
+        <br>
+        <input type="submit" value="Pay Now">
+    </form>
+</body>
+</html>
